@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "pro.postkey/postkey",
+  "title": "Postkey: Instagram DM Automation and Comment-to-DM",
+  "description": "Agentic Instagram DM automation: comment-to-DM links, follow to unlock, inbox, post scheduling.",
+  "version": "1.0.1",
+  "websiteUrl": "https://postkey.pro",
+  "icons": [
+    { "src": "https://postkey.pro/postkey-256.png", "mimeType": "image/png", "sizes": ["256x256"] },
+    { "src": "https://postkey.pro/postkey-512.png", "mimeType": "image/png", "sizes": ["512x512"] },
+    { "src": "https://postkey.pro/postkey-icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://postkey.pro/mcp" }
+  ]
+}
