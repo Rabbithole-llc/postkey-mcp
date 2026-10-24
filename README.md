@@ -71,10 +71,20 @@ agent does not follow instructions hidden in it. End a connection any time under
 - "Show me today's Instagram DMs that nobody has answered yet, and draft a reply to each one for me to approve."
 - "Draft an Instagram post for the new drop with the newest photo from my library, and schedule it for Friday at 9am."
 
+## REST API and webhooks
+
+Scripts, n8n and Make can also use Postkey's REST API: [postkey.pro/docs/api](https://postkey.pro/docs/api), with an
+OpenAPI 3.1 file at [postkey.pro/api/v1/openapi.json](https://postkey.pro/api/v1/openapi.json). It takes the same agent
+key as the MCP server, with the same limits and the same approvals. Webhooks send Postkey's events (a comment, a DM, a
+new contact, a post published, an approval) to your own address, signed with
+[Standard Webhooks](https://www.standardwebhooks.com). For n8n there is a community node:
+[Rabbithole-llc/n8n-nodes-postkey](https://github.com/Rabbithole-llc/n8n-nodes-postkey).
+
 ## Links
 
 - Website: [postkey.pro](https://postkey.pro)
 - MCP docs: [postkey.pro/docs/mcp](https://postkey.pro/docs/mcp)
+- REST API docs: [postkey.pro/docs/api](https://postkey.pro/docs/api)
 - Agent skill file: [postkey.pro/skills/postkey/SKILL.md](https://postkey.pro/skills/postkey/SKILL.md)
 - Support: [postkey.pro/support](https://postkey.pro/support)
 - Privacy: [postkey.pro/privacy](https://postkey.pro/privacy) · Terms: [postkey.pro/terms](https://postkey.pro/terms)
