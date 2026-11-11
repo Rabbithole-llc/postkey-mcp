@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "postkey",
+  "version": "1.0.0",
+  "description": "Instagram DM automation and post scheduling from your agent through Postkey's hosted MCP server: comment-to-DM links, follow to unlock, email capture, the Instagram inbox, contacts and scheduled posts, with a workflow skill that previews every send and respects Postkey's approvals.",
+  "author": {
+    "name": "Postkey (Rabbithole LLC)",
+    "email": "support@postkey.pro",
+    "url": "https://postkey.pro"
+  },
+  "homepage": "https://postkey.pro/docs/mcp",
+  "repository": "https://github.com/Rabbithole-llc/postkey-mcp",
+  "keywords": ["instagram", "dm-automation", "comment-to-dm", "manychat-alternative", "inbox", "social-media", "scheduling", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "postkey": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
